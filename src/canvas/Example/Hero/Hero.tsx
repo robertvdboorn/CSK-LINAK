@@ -1,5 +1,4 @@
-import { UniformText } from '@uniformdev/canvas-react';
-import Link from 'next/link';
+import { UniformSlot, UniformText } from '@uniformdev/canvas-react';
 
 export const Hero = ({}: { title: string; description: string }) => {
   return (
@@ -11,24 +10,17 @@ export const Hero = ({}: { title: string; description: string }) => {
               as="h1"
               parameterId="title"
               className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none"
+              placeholder={'Title goes here'}
             />
-            <UniformText as="p" parameterId="description" className="text-lg text-gray-500 dark:text-gray-400" />
+            <UniformText
+              as="p"
+              parameterId="description"
+              className="text-lg text-gray-500 dark:text-gray-400"
+              placeholder={'Description goes here'}
+            />
           </div>
           <div className="space-x-4">
-            <Link
-              href="https://github.com/uniformdev/uniform-component-starter-kit"
-              className="inline-flex h-9 items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium text-black shadow transition-colors"
-              prefetch={false}
-            >
-              GitHub
-            </Link>
-            <Link
-              href="https://docs.uniform.app"
-              className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white shadow transition-colors"
-              prefetch={false}
-            >
-              Documentation
-            </Link>
+            <UniformSlot name="buttons" />
           </div>
         </div>
       </div>
