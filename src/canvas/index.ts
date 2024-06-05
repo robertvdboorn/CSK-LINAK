@@ -39,6 +39,7 @@ import './Review';
 import './Spacer';
 import './Testimonial';
 import './Video';
+import './Example';
 
 export { default as Accordion } from './Accordion';
 
