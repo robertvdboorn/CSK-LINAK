@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: exampleButton
+name: Example Button
+icon: rectangle-rounded
+parameters:
+  - id: label
+    name: Label
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        url: true
+        email: false
+        projectMapNode: false
+    localizable: false
+  - id: style
+    name: Style
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Primary
+          value: primary
+        - text: Secondary
+          value: secondary
+    localizable: false
+categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
+useTeamPermissions: true
+slots: []
+titleParameter: label
+canBeComposition: false
+created: '2024-06-05T17:30:25.960445+00:00'
+updated: '2024-06-05T17:33:11.167703+00:00'
