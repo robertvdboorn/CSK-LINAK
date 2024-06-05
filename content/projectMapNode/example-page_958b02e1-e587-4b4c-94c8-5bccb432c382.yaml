@@ -1,0 +1,9 @@
+id: 958b02e1-e587-4b4c-94c8-5bccb432c382
+name: Example Page
+order: 300
+path: /example-page
+type: composition
+pathSegment: example-page
+data: {}
+compositionId: d426ab57-4a73-45c2-8698-ab88bfb10f05
+projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431

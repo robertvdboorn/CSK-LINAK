@@ -1,0 +1,33 @@
+composition:
+  _name: Example Page
+  _id: d426ab57-4a73-45c2-8698-ab88bfb10f05
+  _slug: example-page
+  type: emptyPage
+  parameters:
+    pageTitle:
+      type: text
+      value: This is the title of the page.
+  slots:
+    pageFooter:
+      - _id: b479431a-9faf-41e6-b9ab-69712b6bd1e4
+        type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - _id: b1350fac-93af-4c19-9644-c787ae5019b7
+        type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - _id: 09ea5581-ece0-476f-8be2-9b8be8776424
+        type: exampleHero
+        parameters:
+          title:
+            type: text
+            value: Example Component in Uniform
+          description:
+            type: text
+            value: >-
+              Let's build our first Uniform component in React using Next.js and
+              the Component Starter Kit as our starting project.
+created: '2024-06-05T17:19:27.924371+00:00'
+modified: '2024-06-05T17:20:20.088931+00:00'
+pattern: false
