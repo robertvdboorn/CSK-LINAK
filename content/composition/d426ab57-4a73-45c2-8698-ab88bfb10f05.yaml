@@ -19,6 +19,37 @@ composition:
     pageContent:
       - _id: 09ea5581-ece0-476f-8be2-9b8be8776424
         type: exampleHero
+        slots:
+          buttons:
+            - _id: 23359396-fa6b-474d-a908-2cc773bf28f2
+              type: exampleButton
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: >-
+                      https://github.com/uniformdev/uniform-component-starter-kit
+                    type: url
+                label:
+                  type: text
+                  value: GitHub
+                style:
+                  type: select
+                  value: primary
+            - _id: a845792a-1a25-4ae2-8be3-7a78929ed170
+              type: exampleButton
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: https://docs.uniform.app
+                    type: url
+                label:
+                  type: text
+                  value: Documentation
+                style:
+                  type: select
+                  value: secondary
         parameters:
           title:
             type: text
@@ -29,5 +60,5 @@ composition:
               Let's build our first Uniform component in React using Next.js and
               the Component Starter Kit as our starting project.
 created: '2024-06-05T17:19:27.924371+00:00'
-modified: '2024-06-05T17:20:20.088931+00:00'
+modified: '2024-06-05T17:40:38.446461+00:00'
 pattern: false
