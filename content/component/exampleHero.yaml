@@ -21,13 +21,14 @@ parameters:
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
 useTeamPermissions: true
 slots:
-  - id: buttos
-    name: Buttos
-    allowedComponents: []
+  - id: buttons
+    name: Buttons
+    allowedComponents:
+      - exampleButton
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2024-06-05T16:57:33.346833+00:00'
-updated: '2024-06-05T16:57:33.346833+00:00'
+created: '2024-06-05T17:17:16.594166+00:00'
+updated: '2024-06-05T17:30:54.56767+00:00'
